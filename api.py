@@ -1,3 +1,6 @@
+#!flask/bin/python
+# -*- coding: UTF-8 -*-
+
 from flask import Flask, jsonify, request, abort
 
 app = Flask(__name__)
